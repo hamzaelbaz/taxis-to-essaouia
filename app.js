@@ -9,8 +9,7 @@ app.use(express.json());
 
 app.post('/form', async (req, res) => {
     const { name, start, destinations, numbers, emails } = req.body;
-    console.log(name, start, destinations, numbers, emails);
-
+    
     try {
         const response = await fetch('/.netlify/functions/sendEmail', {
             method: 'POST',

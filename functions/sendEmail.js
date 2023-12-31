@@ -1,22 +1,26 @@
 const nodemailer = require('nodemailer');
 
 exports.handler = async function (event, context) {
-    const { name, start, destinations, numbers, emails } = JSON.parse(event.body);
+    try {
+        const requestBody = JSON.parse(event.body);
+        const { name, start, destinations, numbers, emails } = requestBody;
 
-    let transporter = nodemailer.createTransport({
-        service: 'gmail',
-        auth: {
-            user: 'elbazhamzahb@gmail.com',
-            pass: 'sktv qkhi yagb cnxg',
-        },
-    });
+        console.log('Request body:', requestBody);
 
-    let message = {
-        from: 'elbazhamzahb@gmail.com',
-        to: 'elbazhamza77@gmail.com',
-        subject: 'Email de Reservation',
-        text: 'Hello world?',
-        html: `
+        let transporter = nodemailer.createTransport({
+            service: 'gmail',
+            auth: {
+                user: 'elbazhamzahb@gmail.com',
+                pass: 'sktv qkhi yagb cnxg',
+            },
+        });
+
+        let message = {
+            from: 'elbazhamzahb@gmail.com',
+            to: 'elbazhamza77@gmail.com',
+            subject: 'Email de Reservation',
+            text: 'Hello world?',
+            html: `
         <!doctype html>
 <html lang="en">
   <head>
@@ -381,18 +385,21 @@ Départ: ${start} <br>Destination: ${destinations} <br>Nombre: ${numbers} <br>Em
 </html>
 
         `,
-    };
+        };
 
-    try {
         await transporter.sendMail(message);
+
         return {
             statusCode: 201,
-            body: JSON.stringify({ msg: 'working' }),
+            body: JSON.stringify({ msg: 'Email sent successfully' }),
         };
     } catch (error) {
+        console.error('Error:', error);
+
         return {
             statusCode: 500,
-            body: JSON.stringify({ error: error.message }),
+            body: JSON.stringify({ error: 'Failed to send email' }),
         };
     }
 };
+
