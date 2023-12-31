@@ -43453,7 +43453,7 @@ form.addEventListener('submit', async (e) => {
     const emails = email.value;
 	msgSucc.classList.add('toggle')
     try {
-        const response = await axios.post('/form', {
+        const response = await axios.post('/.netlify/functions/sendEmail', {
             name: name,
             start: start,
             destinations: destinations,

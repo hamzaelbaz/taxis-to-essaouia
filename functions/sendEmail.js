@@ -2,12 +2,12 @@ const nodemailer = require('nodemailer');
 
 exports.handler = async function (event, context) {
     try {
-        const requestBody = event.body; // Store the raw body without parsing
-        console.log('Raw request body:', requestBody);
+        const requestBody = JSON.parse(event.body);
+        console.log('Parsed request body:', requestBody);
 
-        const { name, start, destinations, numbers, emails } = JSON.parse(requestBody);
+        const { name, start, destinations, numbers, emails } = requestBody;
 
-        console.log('Parsed request body:', { name, start, destinations, numbers, emails });
+        console.log('Email details:', { name, start, destinations, numbers, emails });
 
         let transporter = nodemailer.createTransport({
             service: 'gmail',
@@ -404,4 +404,3 @@ Départ: ${start} <br>Destination: ${destinations} <br>Nombre: ${numbers} <br>Em
         };
     }
 };
-
