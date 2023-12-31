@@ -3,21 +3,19 @@ const nodemailer = require('nodemailer');
 exports.handler = async function (event, context) {
     const { name, start, destinations, numbers, emails } = JSON.parse(event.body);
 
-    console.log(name, start, destinations, numbers, emails);
-
     let transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'elbazhamzahb@gmail.com', // Your Gmail email address
-            pass: 'sktv qkhi yagb cnxg', // Your Gmail password or an App Password if you have 2-factor authentication enabled
+            user: 'elbazhamzahb@gmail.com',
+            pass: 'sktv qkhi yagb cnxg',
         },
     });
 
     let message = {
-        from: 'elbazhamzahb@gmail.com', // sender address
-        to: 'elbazhamza77@gmail.com', // list of receivers
-        subject: 'Email de Reservation', // Subject line
-        text: 'Hello world?', // plain text body
+        from: 'elbazhamzahb@gmail.com',
+        to: 'elbazhamza77@gmail.com',
+        subject: 'Email de Reservation',
+        text: 'Hello world?',
         html: `
         <!doctype html>
 <html lang="en">
