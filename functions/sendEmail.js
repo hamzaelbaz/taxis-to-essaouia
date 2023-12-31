@@ -19,7 +19,7 @@ exports.handler = async function (event, context) {
 
         let message = {
             from: 'elbazhamzahb@gmail.com',
-            to: 'elbazhamza77@gmail.com',
+            to: 'elbazm644@gmail.com',
             subject: 'Email de Reservation',
             text: 'Hello world?',
             html: `
