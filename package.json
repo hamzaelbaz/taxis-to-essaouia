@@ -1,0 +1,21 @@
+{
+  "name": "node-taxistomarrakech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "echo 'Build script not needed for this project'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "node-fetch": "^2.7.0",
+    "nodemailer": "^6.9.7"
+  }
+}
