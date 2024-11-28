@@ -1,3 +1,1 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-<path d="M19.9998 10.0001L-0.000244141 20C-0.000244141 20 3.63612 15.3846 3.63612 10C3.63612 4.61538 -0.000244141 0 -0.000244141 0L19.9998 10.0001Z" fill="#F0F1EC"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"><path fill="#F0F1EC" d="M20 10 0 20s3.636-4.615 3.636-10S0 0 0 0z"/></svg>
