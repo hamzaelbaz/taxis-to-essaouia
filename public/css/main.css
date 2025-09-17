@@ -827,6 +827,25 @@ footer address dd {
 .booking-form-container h3 {
   font-family: var(--ff-serif); 
 }
+#whatsapp {
+  position: fixed;
+  bottom: 25px;
+  right: 18px;
+  z-index: 100;
+}
+#whatsapp a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+#whatsapp p {
+  line-height: 25px;
+  margin-right: 7px;
+  background-color: #e4e2e2;
+  padding: 7px;
+  border-radius: 3px;
+}
 @media screen and (min-width: 410px) {
   .book-btn {
     font-size: .75rem;

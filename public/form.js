@@ -31,7 +31,9 @@ form.addEventListener('submit', async (e) => {
         depart.value = ""
         destination.value =""
         nombre.value = ""
-        email.value = ""
+        email.value = "",
+        message.value= "",
+        telephone.value= ""
 		setTimeout(()=>{
 			msgSucc.classList.remove('toggle')
 		},5000)
