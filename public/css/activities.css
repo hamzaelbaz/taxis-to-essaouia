@@ -6,21 +6,9 @@ body {
     background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,0) 100% ), 
     url(/images/camel-tours_650.webp); 
 }
-.header-container.surfing {
-    background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.5) 100% ), 
-    url(/images/surfing-main_550.jpg);
-}
-.header-container.camelRide {
-    background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.1) 100% ), 
-    url(/images/camel-tour-main_550.webp);
-}
-.header-container.quad {
+.header-container.palmeraie {
     background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
-    url(/images/quad-main_550.webp);
-}
-.header-container.balloon {
-    background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
-    url(/images/balloon-main_550.webp);
+    url(/images/palmeraie-main_550.webp);
 }
 .header-container.marrakech {
     background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
@@ -50,7 +38,7 @@ body {
     background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
     url(/images/chefchaoune-main_550.jpg);
   }
-.header-container, .header-container.surfing, .header-container.camelRide, .header-container.quad,.header-container.balloon, .header-container.marrakech, .header-container.essaouira, .header-container.agadir, .header-container.casablanca, .header-container.fes, .header-container.header-container.ouarzazate, .header-container.header-container.chefchaoune{
+.header-container ,.header-container.palmeraie, .header-container.marrakech, .header-container.essaouira, .header-container.agadir, .header-container.casablanca, .header-container.fes, .header-container.header-container.ouarzazate, .header-container.header-container.chefchaoune{
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,26 +187,14 @@ footer {
 @media screen and (min-width: 600px) {
     html {
         font-size: 1.2rem;
-      }
-    .header-container.surfing {
-        background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.5) 100% ), 
-        url(/images/surfing-main_650.jpg); 
-    }
-    .header-container.camelRide {
-        background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.1) 100% ), 
-        url(/images/camel-tour-main_650.webp);
-    }
-    .header-container.quad {
-        background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
-        url(/images/quad-main_650.webp);
-    } 
-    .header-container.balloon {
-        background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
-        url(/images/balloon-main_650.webp);
-    }
+      } 
     .header-container.marrakech {
         background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
         url(/images/marrakech-main_650.jpg);
+    }
+    .header-container.palmeraie {
+        background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
+        url(/images/palmeraie-main_650.webp);
     }
     .header-container.essaouira {
         background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
@@ -244,7 +220,7 @@ footer {
         background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
         url(/images/chefchaoune-main_650.jpg);
       }
-    .header-container, .header-container.surfing, .header-container.camelRide, .header-container.quad,.header-container.balloon, .header-container.marrakech, .header-container.essaouira,.header-container.agadir, .header-container.casablanca, .header-container.fes, .header-container.header-container.ouarzazate, .header-container.header-container.chefchaoune{
+    .header-container, .header-container.marrakech,.header-container.palmeraie, .header-container.essaouira,.header-container.agadir, .header-container.casablanca, .header-container.fes, .header-container.header-container.ouarzazate, .header-container.header-container.chefchaoune{
         background-blend-mode: darken;
         background-repeat: no-repeat;
         background-size: cover;
@@ -259,21 +235,9 @@ footer {
         background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,0) 100% ), 
         url(/images/camel-tours_800.webp);
     } 
-    .header-container.surfing {
-        background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.5) 100% ), 
-        url(/images/surfing-main_800.jpg);
-    } 
-    .header-container.camelRide {
-        background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.1) 100% ), 
-        url(/images/camel-tour-main_800.webp);
-    }
-    .header-container.quad {
+    .header-container.palmeraie {
         background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
-        url(/images/quad-main_800.webp);
-    } 
-    .header-container.balloon {
-        background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
-        url(/images/balloon-main_800.webp);
+        url(/images/palmeraie-main_800.webp);
     }
     .header-container.marrakech {
         background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
@@ -303,7 +267,7 @@ footer {
         background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
         url(/images/chefchaoune-main_800.jpg);
       }
-    .header-container, .header-container.surfing, .header-container.camelRide, .header-container.quad,.header-container.balloon, .header-container.marrakech, .header-container.essaouira, .header-container.agadir, .header-container.casablanca, .header-container.fes, .header-container.header-container.ouarzazate, .header-container.header-container.chefchaoune{
+    .header-container , .header-container.marrakech,.header-container.palmeraie, .header-container.essaouira, .header-container.agadir, .header-container.casablanca, .header-container.fes, .header-container.header-container.ouarzazate, .header-container.header-container.chefchaoune{
         background-blend-mode: darken;
         background-repeat: no-repeat;
         background-size: cover;
