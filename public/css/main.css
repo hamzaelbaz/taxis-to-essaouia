@@ -450,7 +450,7 @@ figcaption {
 }
 
 .slide-img-six {
-	background: url(/images/ouarzazate_550.webp);
+	background: url(/images/taghazout-bay_550.jpg);
 	background-size: cover;
 	background-position: bottom
 }
@@ -1070,7 +1070,7 @@ footer address dd {
 	}
 
 	.slide-img-six {
-		background: url(/images/ouarzazate_650.webp);
+		background: url(/images/taghazout-bay_650.jpg);
 		background-size: cover
 	}
 
@@ -1142,7 +1142,7 @@ footer address dd {
 	}
 
 	.slide-img-six {
-		background: url(/images/ouarzazate_850.webp);
+		background: url(/images/taghazout-bay_850.jpg);
 		background-size: cover
 	}
 }
