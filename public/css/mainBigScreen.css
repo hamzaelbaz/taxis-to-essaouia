@@ -231,6 +231,10 @@ footer address {
 .header-container.marrakech {
 	background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8) 50%, rgb(0 17 29 / .2) 100%), url(/images/marrakech-main_950.jpg)
 }
+.header-container.kaouki {
+    background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
+    url(/images/sidi-kaouki-main_950.jpg);
+}
 .header-container.rabat {
 	background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
 	url(/images/rabat-main_950.jpeg);
@@ -341,6 +345,10 @@ address.tours-section-content .contact-item {
 	.header-container.marrakech {
 		background: linear-gradient(to top, #00111d 0%, rgb(0 17 29 / .8) 50%, rgb(0 17 29 / .2) 100%), url(/images/marrakech-main_1080.jpg)
 	}
+	.header-container.kaouki {
+		background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
+		url(/images/sidi-kaouki-main_1080.jpg);
+	}
 	.header-container.rabat {
         background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
         url(/images/rabat-main_1080.jpeg);
@@ -375,6 +383,7 @@ address.tours-section-content .contact-item {
 
 	.activities .header-container, 
 	.header-container.marrakech,
+	.header-container.kaouki,
 	.header-container.rabat,
     .header-container.palmeraie,
 	.header-container.essaouira,
@@ -436,6 +445,10 @@ address.tours-section-content .contact-item {
         background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
         url(/images/rabat-main_1250.jpeg);
     }
+	.header-container.kaouki {
+		background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
+		url(/images/sidi-kaouki-main_1250.jpg);
+	}
     .header-container.palmeraie {
         background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
         url(/images/palmeraie-main_1250.webp);
@@ -466,6 +479,7 @@ address.tours-section-content .contact-item {
 
 	.activities .header-container,
 	.header-container.marrakech,
+	.header-container.kaouki,
 	.header-container.rabat,
     .header-container.palmeraie,
 	.header-container.essaouira,
@@ -540,6 +554,10 @@ address.tours-section-content .contact-item {
         background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
         url(/images/rabat-main.jpeg);
     }
+	.header-container.kaouki {
+		background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
+		url(/images/sidi-kaouki-main_1250.jpg);
+	}
     .header-container.palmeraie {
         background: linear-gradient(to top, rgb(0, 17, 29) 0%, rgba(0, 17, 29, .8) 50%, rgba(0, 17, 29,.2) 100% ), 
         url(/images/palmeraie-main.webp);
@@ -574,6 +592,7 @@ address.tours-section-content .contact-item {
 	.header-container.quad,
 	.header-container.balloon,
 	.header-container.marrakech,
+	.header-container.kaouki,
 	.header-container.rabat,
     .header-container.palmeraie,
 	.header-container.essaouira,
