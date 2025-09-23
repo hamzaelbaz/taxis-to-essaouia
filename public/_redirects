@@ -1,13 +1,24 @@
 # Serve homepage
 /    /index.html   200
 
-# Serve other pages
+# City pages
 /casablanca   /casablanca/index.html   200
-/marrakech   /marrakech/index.html   200
+/marrakech    /marrakech/index.html    200
 /agadir       /agadir/index.html       200
 /essaouira    /essaouira/index.html    200
 /taghazout    /taghazout/index.html    200
 /imsouane     /imsouane/index.html     200
 
+# Other site pages
+/contact                              /contact/index.html                              200
+/propos                               /propos/index.html                               200
+/taxi-agadir-aeroport-agadir          /taxi-agadir-aeroport-agadir/index.html         200
+/taxi-agadir-taghazout                /taxi-agadir-taghazout/index.html               200
+/taxi-marrakech-aeroport-palmeraie    /taxi-marrakech-aeroport-palmeraie/index.html   200
+/taxi-marrakech-casablanca            /taxi-marrakech-casablanca/index.html           200
+/taxi-marrakech-essaouira             /taxi-marrakech-essaouira/index.html            200
+/taxi-marrakech-rabat                 /taxi-marrakech-rabat/index.html                200
+/taxi-marrakech-sidi-kaouki           /taxi-marrakech-sidi-kaouki/index.html          200
+
 # Optional: catch-all for static pages
-/*  /index.html  200
+/*   /index.html  200
